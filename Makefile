@@ -6,7 +6,7 @@
 #    By: edgda-si <edgda-si@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/20 16:53:56 by edgda-si          #+#    #+#              #
-#    Updated: 2026/06/03 17:05:01 by edgda-si         ###   ########.fr        #
+#    Updated: 2026/06/04 15:17:48 by edgda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,6 +42,11 @@ SRC = ft_isalpha.c \
 	ft_strjoin.c \
 	ft_strtrim.c \
 	ft_split.c \
+	ft_itoa.c \
+	ft_strmapi.c \
+	ft_striteri.c \
+	ft_putchar_fd.c \
+	ft_putstr_fd.c \
 
 OBJ = $(SRC:.c=.o)
 

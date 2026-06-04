@@ -6,7 +6,7 @@
 /*   By: edgda-si <edgda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/20 16:53:29 by edgda-si          #+#    #+#             */
-/*   Updated: 2026/06/03 17:04:34 by edgda-si         ###   ########.fr       */
+/*   Updated: 2026/06/04 15:17:03 by edgda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <stdio.h>
 # include <stdint.h>
 # include <stdlib.h>
+# include <unistd.h>
 
 /* FUNCTION PROTOTYPES */
 
@@ -49,4 +50,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
+char	*ft_itoa(int n);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
 #endif
