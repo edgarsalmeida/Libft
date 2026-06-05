@@ -6,7 +6,7 @@
 /*   By: edgda-si <edgda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/20 16:53:29 by edgda-si          #+#    #+#             */
-/*   Updated: 2026/06/05 16:11:39 by edgda-si         ###   ########.fr       */
+/*   Updated: 2026/06/05 16:52:54 by edgda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,4 +62,6 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+int		ft_lstsize(t_list *lst);
 #endif

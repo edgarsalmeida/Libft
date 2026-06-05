@@ -6,7 +6,7 @@
 #    By: edgda-si <edgda-si@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/20 16:53:56 by edgda-si          #+#    #+#              #
-#    Updated: 2026/06/05 15:50:03 by edgda-si         ###   ########.fr        #
+#    Updated: 2026/06/05 16:53:25 by edgda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,7 +49,9 @@ SRC = ft_isalpha.c \
 	ft_putstr_fd.c \
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
-	ft_lstnew.c
+	ft_lstnew.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
 
 OBJ = $(SRC:.c=.o)
 
