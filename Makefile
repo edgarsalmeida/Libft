@@ -6,7 +6,7 @@
 #    By: edgda-si <edgda-si@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/20 16:53:56 by edgda-si          #+#    #+#              #
-#    Updated: 2026/06/05 17:25:28 by edgda-si         ###   ########.fr        #
+#    Updated: 2026/06/05 19:17:11 by edgda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,6 +54,7 @@ SRC = ft_isalpha.c \
 	ft_lstsize.c \
 	ft_lstlast.c \
 	ft_lstadd_back.c \
+	ft_lstdelone.c \
 
 OBJ = $(SRC:.c=.o)
 
