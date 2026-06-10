@@ -124,3 +124,4 @@ cc main.c -L. -lft -o my_program
 - C Library Reference (Cplusplus) - Standard documentation for standard libc functions.
 - Unix man pages - Detailed specifications for expected behaviors and edge cases.
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/html) - Comprehensive reference guide for core C programming concepts, deep memory handling, and low-level specifications.
+- Libft - Your very first own library, document.
